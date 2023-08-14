@@ -1,0 +1,7 @@
+:root {
+    --heigth-section: 100vh; /*tamanho da section */
+    --margin-contanier: 0 8%; /*margem da section */
+    --size-title: 40px; /*tamanho da fonte do título */
+    --size-paragrafo: 30px; /*tamanho da fonte do paragrafo */
+    --color-base: #a8ca7e;
+}
