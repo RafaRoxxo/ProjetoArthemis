@@ -1,0 +1,74 @@
+/* INICIO CONQUISTAS */
+.tabela-conq {
+    min-height: var(--heigth-section);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-conquistas {
+    font-size: var(--size-title);
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.tab-dest{
+    background-color: #97b770;
+    border: 1px solid #cbddb5;
+    width: 90%;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px rgb(170, 169, 169);
+}
+
+.tab-dest h1 {
+    text-align: center;
+    width: 100%;
+}
+
+.tab-dest:hover {
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.lista-dest {
+    max-height: 0;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    text-align: center;
+    font-size: 18px;
+    width: 90%;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    background-color: #f7feef;
+}
+  
+.visivel {
+    max-height: 700px; /*Altura máxima desejada */
+    animation: expand-height 1s forwards;
+    margin: 2px 0 2px 0;
+}
+  
+@keyframes expand-height {
+    from {
+        max-height: 0;
+    }
+    to {
+        max-height: 700px; /* Altura máxima desejada */
+}
+}
