@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!-- doctype informa ao agente de usuário a versão do html que deve 
+ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title>Associação Arthemis</title>
+        <link rel="shortcut icon" href="img/logo-arthemis.branca.svg">
+        <meta charset="utf-8">
+        <meta name="author" content="Ana Almeida, Eduardo Fofonka, Lucas Costa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Associação, Arthemis, Tiro com arco, Esporte">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+        
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+    </style>
+
+    <body>
+        <section id="home">
+            <header id="header">
+                <div class="logo">
+                    <img alt="logo da Associação Arthemis" src="/img/logo-arthemis.verde.svg">
+                </div>
+                
+                <nav id="navigation" class="active">
+                    <ul>
+                        <li><a href="#container-principal">Home</a></li>
+                        <li><a href="#nossa-historia">Nossa história</a></li>
+                        <li><a href="#aulas">Aulas</a></li>
+                        <li><a href="#associar">Associe-se</a></li>
+                        <li><a href="#footer">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mobile-menu hidden">
+                        <img id="check" alt="logo de menu" src="img/menu-icon.svg"></img>
+                    <div id="mobile" class="mobile">
+                        <a href="#container-principal">Home</a>
+                        <a href="#nossa-historia">Nossa história</a>
+                        <a href="#aulas">Aulas</a>
+                        <a href="#associar">Associe-se</a>
+                        <a href="#footer">Contato</a>
+                    </div>
+                </div>
+                <script src="JS/mobile-menu.js"></script>
+            </header>
+        </section>
+
+        <section id="container-principal" class="section-main">
+                <div class="text">
+                    <h2 class="title">Venha fazer parte do nosso time!</h2>
+                    <p class="subtitle">Contamos com você para participar do esporte de tiro com arco!</p>
+                    <button id="agendamento" class="button"><a href="#associar">Agende uma aula experimental</a></button>
+                </div>
+                <div class="img-principal">
+                    <div class="img-home"><img alt="Pessoas com arco e flechas" src="/img/img principal.png"></div>
+                    <div class="bg-img"></div>
+                </div>
+        </section>
+
+        <!-- <hr width="100%" align="center"> -->
+        <section id="nossa-historia" class="quem-somos">
+            <div>
+                <div class="conteudo-qs">
+                    <div class="title-qs hidden">Quem somos</div>
+                    <div class="reportagem">
+                        <div class="video"><iframe src="https://www.youtube.com/embed/1hT9MrT1GcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                        <div class="bg-video"></div>
+                    </div>
+
+                    <div class="texto">
+                        <div class="title-qs active">Quem somos</div>
+                        <p>Fundada em 29 de janeiro de 2015, a Associação Arthemis busca oportunizar o acesso à modalidade, fomentando prática e incentivando o desenvolvimento de novos arqueiros em Cachoeirinha e região metropolitana. A Arthemis conta hoje com apoio de entidades da iniciativa privada e do poder público. A Arthemis Tiro com Arco é o elo necessário para iniciar a praticar oficialmente do esporte, desde atividades de recreação e lazer até alto rendimento no esporte.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <hr width="100%" align="center"> -->
+        <section id="container-destaques" class="destaques">
+
+            <div class="title-destaques">Destaques</div>
+
+            <!-- inicio slider -->
+            <div>
+                <div class="slider">
+                    <!-- radios buttons -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+                    <!-- fim radios buttons -->
+                    <div class="slides">
+                        <!-- slides img -->
+                        <div class="slide first">
+                            <img alt="Pessoa atirando com arco" src="img/thiago-carrossel1.jpeg">
+                        </div>
+                        <div class="slide">
+                            <img alt="Pessoa atirando com arco" src="img/thiago-carrossel2.jpeg">
+                        </div>
+                        <div class="slide">
+                            <img alt="Duas pessoas segurando uma bandeira" src="img/thiago-carrossel3.jpeg">
+                        </div>
+                        <!-- fim slides img -->
+                        <div class="manual-navigation">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="JS/carousel.js"></script>
+                <div class="mundial-madrid">
+
+                    <h3>Mundial Madrid</h3>
+                    <p>Durante os combates individuais no Campeonato Mundial de Tiro com Arco da Juventude de Madrid, Tiago (104º colocado) enfrentou um competidor francês (9º colocado) e sofreu uma derrota por 7 a 1. O atleta brasileiro, conhecido como "Negão", demonstrou um ótimo desempenho, mas o francês obteve melhores resultados. Infelizmente, essa partida marcou o fim da participação de Tiago no Mundial de 2019.</p>
+
+                </div>
+
+        </section>
+
+        <!-- <hr width="100%" align="center"> -->
+        <section id="acoes-beneficientes" class="acoes">
+            <div class="title-acoes">Ações Beneficentes</div>
+            <div class="conteudo-acoes">
+                <div class="card-acoes">
+                    <div class="card-acoes2">Pedágios Solidários</div>
+                    <div class="logo-acoes"><img alt="Pessoas tirando foto com cartaz" src="/img/card-1.png" alt=""></div>
+                </div>
+                <div class="card-acoes">
+                    <div class="card-acoes2">Jantares e Bailes</div>
+                    <div class="logo-acoes"><img alt="Pessoas jantando em uma festa" src="/img/card-2.jpg"></div>
+                </div>
+                <div class="card-acoes">
+                    <div class="card-acoes2">Almoços</div>
+                    <div class="logo-acoes"><img alt="Pessoas preparando um almoço" src="/img/card-3.jpg"></div>
+                </div>
+                <div class="card-acoes">
+                    <div class="card-acoes2">Pix para doações</div>
+                    <div class="logo-acoes pix"><img alt="qr code do pix" src="/img/Group.png"></div>
+                    <!-- <div><p>Acima se encontra o QR code do pix da Arthemis para doações de qualquer valor. Uma ajuda é sempre bem-vinda!</p></div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- <hr width="100%" align="center"> -->
+        <section id="depoimentos" class="depoimentos-coment">
+
+            <div class="title-depo">Depoimentos</div>
+
+            <div class="depoimentos-section">
+                <div class="depoimentos-container fade">
+                    <div class="depoimentos">
+                        <img src="img/atleta-rodrigo.jpge.jpeg" alt="Pessoa segurando cartaz" class="avatar">
+                        <p class="depoimentos-text">Me sinto muito integrado na equipe, pois o clima de união e camaradagem imperam na equipe. O Tiro com Arco me trouxe muita serenidade e concentração, pois não basta estar com as técnicas boas se não tivermos concentração. Meu principal objetivo é chegar nas Paralimpíadas.</p>
+                        <br>
+                        <p class="depoimentos-author">- Rodrigo - Atleta Paralímpico</p>
+                    </div>
+                </div>
+
+                <div class="depoimentos-container fade">
+                    <div class="depoimentos">
+                        <img src="img/atleta-joao.jpge.jpeg" alt="Pessoa atirando com arco" class="avatar">
+                        <p class="depoimentos-text">A equipe é muito entrosada e muito amigável! O esporte me trouxe amigos, aprendizado, dedicação, disciplina, concentração e etc. Meu objetivo é ser o melhor, se não o melhor do esporte, pelo menos, melhor do que fui ontem.</p>
+                        <br>
+                        <p class="depoimentos-author">- João - Atleta da base</p>
+                    </div>
+                </div>
+                    <a class="prev" id="prev">❮</a>
+                    <a class="next" id="next">❯</a>
+            </div>
+            <script src="JS/coments.js"></script>
+            
+        </section>
+
+        <!-- <hr width="100%" align="center"> -->
+        <section id="conquistas" class="tabela-conq">
+            <div class="title-conquistas">Conquistas</div>
+
+            <div class="tab-dest">
+                <h1>2022</h1>
+                <h1>+</h1>
+            </div>
+            
+            <div class="lista-dest">
+                <table>
+                    <tr><td>2º Lugar - Mica Recurvo Juvenil - Masculino- L.Caamano, T.Porto, F.Avila</td></tr>
+                    <tr><td>2º Lugar - Campeonato Gaúcho Recurvo Cadete - Masculino - Luis Eduardo Barbosa</td></tr>
+                    <tr><td>2º Lugar - Campeonato Gaúcho Recurvo Open - Jorge Bernardo</td></tr>
+                    <tr><td>3º Lugar - Campeonato Gaúcho Recurvo Open - Rodrigo Rodrigues</td></tr>
+                    <tr><td>1º Lugar - Campeonato Gaúcho Recurvo Juvenil - Masculino- Tiago Porto</td></tr>
+                    <tr><td>2º Lugar - Campeonato Gaúcho Recurvo Juvenil - Masculino - Felipe Avila</td></tr>
+                    <tr><td>3º Lugar - Campeonato Gaúcho Recurvo Juvenil - Masculino - Marcus Wolff</td></tr>
+                </table>
+            </div>
+
+            <div class="tab-dest">
+                <h1>2021</h1>
+                <h1>+</h1>
+            </div>
+
+            <div class="lista-dest">
+                <table>
+                    <tr><td>2° Lugar Campeonato Brasileiro de Base - Equipe Masculina R.roxo, G.Azevedo, F.Avila</td></tr>
+                    <tr><td>2° Lugar Campeonato brasileiro de base, individual R.Roxo</td></tr>
+                    <tr><td>3º Lugar - Mica Recurvo Juvenil - Masculino - R.Roxo, T.Porto, F.Avila</td></tr>
+                    <tr><td>1º Lugar - Campeonato Gaúcho Recurvo Infantil - Masculino - Luis Eduardo Barbosa</td></tr>
+                    <tr><td>1º Lugar - Campeonato Gaúcho Recurvo Juvenil - Masculino - Rafael Roxo</td></tr>
+                    <tr><td>2º Lugar - Campeonato Gaúcho Recurvo Juvenil - Masculino - Tiago Porto</td></tr>
+                    <tr><td>3º Lugar - Campeonato Gaúcho Recurvo Juvenil - Masculino - Gustavo Azevedo</td></tr>
+                </table>
+            </div>
+
+            <!-- <div class="tab-dest">
+                <h1>2020</h1>
+                <h1>+</h1>
+            </div> -->
+
+            <div class="lista-dest">
+                <table>
+                    <tr><td>Título - Atleta</td></tr>
+                    <tr><td>Título - Atleta</td></tr>
+                    <tr><td>Título - Atleta</td></tr>
+                    <tr><td>Título - Atleta</td></tr>
+                    <tr><td>Título - Atleta</td></tr>
+                </table>
+            </div>
+            <script src="JS/destaque.js"></script>
+
+        </section>
+
+        <!-- <hr width="100%" align="center"> -->
+        <section id="aulas" class="aulas-arco">
+            <div class="title-aulas">Nossas aulas</div>
+            <div class="conteudo-aulas">
+                <div class="card-aulas">
+                    <div class="img-arcos"><img alt="arco recurvo" src="/img/arco_recurvo.png"></div>
+                    <div class="paragrafo-aulas">
+                        <div class="tipo-arco-1">
+                            <b>Arco Recurvo</b>
+                        </div>
+                        <p><b>Local:</b> Casa de Cultura de Cachoeirinha</p>
+                        <p><b>Instrutor:</b> Cristiano Zarichta, Luís Caamano e Tiago Porto
+                        </p>
+                    </div>
+                </div>
+                <div class="card-aulas">
+                    <div class="img-arcos"><img alt="arco composto" src="/img/arco_composto.jpg"></div>
+                    <div class="paragrafo-aulas">
+                        <div class="tipo-arco-2">
+                            <b>Arco Composto</b>
+                        </div>
+                        <p><b>Local:</b> Casa de Cultura de Cachoeirinha</p>
+                        <p><b>Instrutor:</b> Cristiano Zarichta, Luís Caamano e Tiago Porto
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <hr width="100%" align="center"> -->
+        <section id="associar" class="como-associar">
+            <div class="title-ass">Como se associar</div>
+            <div class="conteudo-ass">
+                <div class="redes-sociais">
+                    <div class="subtitle-ass">Entre em contato com a gente!</div>
+                    <div class="logo-midia">
+                        <a href="https://api.whatsapp.com/send?phone=555193554566" target="_blank"><img alt="logo do whatsapp" src="img/logo-whats.svg"></a>
+                        <a href="https://instagram.com/a.arthemis?igshid=MzRlODBiNWFlZA==" target="_blank"><img alt="logo instagram" src="img/logo-insta.svg"></a>
+                        <a href="https://www.facebook.com/arthemistirocomarco?mibextid=LQQJ4d" target="_blank"><img alt="logo facebook" src="img/logo-facebook.svg"></a>
+                    </div>
+                </div>
+                <div class="paragrafo-ass">
+                    <p>Para conhecer e ter os primeiros contatos com o esporte, basta participar de uma aula experimental. Nelas serão ensinadas as regras de segurança e os primeiros movimentos, passo a passo, para os primeiros tiros.</p>
+                    <br>
+                    <p>Após a aula experimental é possível escolher um plano de acordo com a necessidade de cada aluno, vontade de treinar e disponibilidade, dentro dos horários disponíveis.</p>
+                    <br>
+                    <p>As aulas serão divulgadas em nossas redes sociais.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="footer-class">
+                <div class="logo-footer">
+                    <img src="img/logo-arthemis.branca.svg" alt="logo arthemis branca">
+                </div>
+                <div class="ctt-footer">
+                    <div class="logo-ctt">
+                        <img alt="ícone de um telefone" src="/img/logo-telefone-branco.svg">
+                        <p>(51) 99355-4566</p>
+                    </div>
+                    <div class="logo-ctt">
+                        <img alt="ícone de um email" src="/img/logo-email-branco.svg">
+                        <p>arthemistirocomarco@gmail.com</p>
+                    </div>
+                    <div class="logo-ctt">
+                        <img alt="ícone de gps" src="/img/logo-localização-branco.svg">
+                        <p>R.Dr Dércio Martins Costa, 312, Cachoeirinha</p>
+                    </div>
+                </div>
+        </footer>
+    </body>
+</html>
